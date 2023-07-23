@@ -1,66 +1,66 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>RAPDODGENET - Personal ASN</title>
-    <meta charset="utf-8" />
-    <!-- <meta name="robots" content="noindex" /> -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RAPDODGENET - Personal ASN</title>
+  <style>
+    body {
+      text-align: center;
+      padding: 20px;
+      font: 20px Helvetica, sans-serif;
+      color: #efe8e8;
+    }
+
+    @media (min-width: 768px) {
       body {
-        text-align: center;
-        padding: 20px;
-        font: 20px Helvetica, sans-serif;
-        color: #efe8e8;
+        padding-top: 50px;
+        padding-bottom: 50px;
       }
+    }
 
-      @media (min-width: 768px) {
-        body {
-          padding-top: 150px;
-        }
-      }
+    h1 {
+      font-size: 50px;
+    }
 
-      h1 {
-        font-size: 50px;
-      }
+    article {
+      display: block;
+      text-align: left;
+      max-width: 650px;
+      margin: 0 auto;
+    }
 
-      article {
-        display: block;
-        text-align: left;
-        max-width: 650px;
-        margin: 0 auto;
-      }
+    a {
+      color: #dc8100;
+      text-decoration: none;
+    }
 
-      a {
-        color: #dc8100;
-        text-decoration: none;
-      }
-
-      a:hover {
-        color: #efe8e8;
-        text-decoration: none;
-      }
-    </style>
-  </head>
-  <body bgcolor="2e2929">
-    <article>
-      <h1 align="center">Peering Policy</h1>
-      <div>
-        <p align="justify">RAPDODGENET is a small, private network for learning materials and a hobby network. RAPDODGENET has an open peering policy and will peer with networks that have presence on mutual exchange points or tunnel-based.</p>
-        <h3 align="justify">Requirements</h3>
-        <p align="justify">RAPDODGENET uses PeeringDB as a single authoritative source of truth. This means peering partners must have an up-to-date PeeringDB entry before a bilateral peering session can be established.</p>
-        <p align="justify">RAPDODGENET will use industry standards to secure the peering sessions. This includes industry standards and best practices. Both parties should have a well-set-up route-set, or AS-SET, as well as up-to-date prefix maximums defined in PeeringDB. RAPDODGENET will use this data to filter routes received from the network&rsquo;s BGP sessions.</p>
-        <h3 align="justify">Important Notices</h3>
-        <p align="justify">To ensure the quality of our operations, we reserve the following rights under our peering policy:</p>
-        <ul align="justify">
-            <li>To reject your prefix automatically when RPKI and IRR are invalid.</li>
-            <li>To reject your network when you de-aggregate too many prefixes if your network is not an essential service for us.</li>
-            <li>To accept or decline a peering request at any time for any reason.</li>
-            <li>To selectively withdraw prefixes from public IXP fabrics as needed to protect service quality.</li>
-            <li>To terminate any peering connection at any time without notice.</li>
-        </ul>
-        <p align="left">&mdash; RAPDODGENET Network Administrator</p>
-        <p align="center"><a href="https://bgp.tools/as/203868">BGP.Tools</a> | <a href="https://rifqiariefp.t.me">Contact Us</a> | <a href="/">Home</a> | <a href="/geofeeds.csv">Geofeeds</a> | <a href="https://peeringdb.com/asn/203868">PeeringDB</a></p>
-      </div>
-    </article>
-  </body>
+    a:hover {
+      color: #efe8e8;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body bgcolor="2e2929">
+  <article>
+    <h1 align="center">Peering Policy</h1>
+    <div>
+      <p align="justify">RAPDODGENET is a small, private network for learning materials and a hobby network. RAPDODGENET has an open peering policy and will peer with networks that have presence on mutual exchange points or tunnel-based.</p>
+      <h3 align="justify">Requirements</h3>
+      <p align="justify">RAPDODGENET uses PeeringDB as a single authoritative source of truth. This means peering partners must have an up-to-date PeeringDB entry before a bilateral peering session can be established.</p>
+      <p align="justify">RAPDODGENET will use industry standards to secure the peering sessions. This includes industry standards and best practices. Both parties should have a well-set-up route-set, or AS-SET, as well as up-to-date prefix maximums defined in PeeringDB. RAPDODGENET will use this data to filter routes received from the network&rsquo;s BGP sessions.</p>
+      <h3 align="justify">Important Notices</h3>
+      <p align="justify">To ensure the quality of our operations, we reserve the following rights under our peering policy:</p>
+      <ul align="justify">
+        <li>To reject your prefix automatically when RPKI and IRR are invalid.</li>
+        <li>To reject your network when you de-aggregate too many prefixes if your network is not an essential service for us.</li>
+        <li>To accept or decline a peering request at any time for any reason.</li>
+        <li>To selectively withdraw prefixes from public IXP fabrics as needed to protect service quality.</li>
+        <li>To terminate any peering connection at any time without notice.</li>
+      </ul>
+      <p align="left">&mdash; RAPDODGENET Network Administrator</p>
+      <p align="center"><a href="https://rifqiariefp.t.me">Contact Us</a> | <a href="index.html">Home</a> | <a href="geofeeds.csv">Geofeeds</a> | <a href="https://www.peeringdb.com/org/32855">PeeringDB</a> | <a href="sponsors.html">Sponsors</a></p>
+    </div>
+  </article>
+</body>
 </html>
